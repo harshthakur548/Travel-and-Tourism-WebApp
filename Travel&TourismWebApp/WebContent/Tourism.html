@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Book your Tour!</title> 
+
+<!-----amstrdam  script--->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.1/tailwind.min.css'>
+<!-----amstrdam  script end--->
+
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet" id="bootstrap-css">
+<script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<!----- photos script--->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" rel="stylesheet" id="bootstrap-css">
+<script src= "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!----- photos script end--->
+
+
+
+</head>
+<style>
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-section {
+    margin-top: 20px;
+}
+
+.add-sens {
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+
+.img-section {
+    overflow: hidden;
+}
+
+.img-section img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-section img:hover {
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sectin-title h1 {
+    font-weight: 700;
+    font-size: 23px;
+    color: #285A63;
+}
+
+.section-detail p {
+    color: #756d6d;
+    letter-spacing: 1px;
+}
+
+.fa-star,
+.fa-star-half-alt {
+    color: #FEC00B;
+}
+
+.fa-star-half-alt {
+    margin-right: 10px;
+}</style>
+
+
+
+<body>
+
+<!-----book trip  bar--->
+
+<section class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="mb-3">Our Travel Journey's </h3>
+            </div>
+            <div class="col-6 text-right">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                    <i class="fa fa-arrow-left"></i>
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Shimla </h4>
+                                            <p class="card-text">I have loved the stars too fondly to be fearful of the night.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Jog Falls</h4>
+                                            <p class="card-text"> Grace is finding a waterfall when you were only looking for a stream.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
+                                        <div class="card-body">
+                                            <h4 class="card-title"> Manali </h4>
+                                            <p class="card-text">You are my sun, my moon, and all my stars.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
+                                        <div class="card-body">
+                                            <h4 class="card-title"> Blood Moon</h4>
+                                            <p class="card-text">Before the great and terrible day of the Lord comes.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Goa</h4>
+                                            <p class="card-text">Sky above, sand below, peace within</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Rajasthan</h4>
+                                            <p class="card-text">Rajasthan is a glittering jewel of India.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Baga Beach</h4>
+                                            <p class="card-text">We dream in colors borrowed from the sea.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Pune</h4>
+                                            <p class="card-text">Never go too long without watching a sunset.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card">
+                                        <img class="img-fluid" alt="100%x280" src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Blue Sky</h4>
+                                            <p class="card-text">He never felt The witchery of the soft blue sky! At sunrise.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<center>
+
+<!-- Small modal -->
+<button class="btn btn-primary"  data-toggle="modal" data-target=".bs-example-modal-sm">Logout!</button>
+
+<div class="modal bs-example-modal-sm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header"><h4>Logout <i class="fa fa-lock"></i></h4></div>
+      <div class="modal-body"><i class="fa fa-question-circle"></i> Are you sure you want to log-off?</div>
+      <div class="modal-footer"><a href="Logout.html" class="btn btn-primary btn-block">Logout</a></div>
+    </div>
+  </div>
+</div>
+</center>
+<!-- --book trip bar ends -->
+
+
+<div class="container main-section">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="section border bg-white rounded p-2">
+                <div class="row">
+                    <div class="col-lg-12 img-section">
+                        <img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2020/1/Desk/2020_1$largeimg_2043152189.jpeg" class="p-0 m-0 res-ponsive">
+                        <span class="badge badge-danger add-sens p-2 rounded-0">NOW</span>
+                    </div>
+                    <div class="col-lg-12 sectin-title">
+                        <h1 class="pt-2 pb-2">Shimla</h1>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <span class="badge badge-success p-2">$ 300  <del class="price-old">$620</del></span>
+                            </div>
+                            <div class="col-lg-10 text-right">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half-alt"></i></span><br>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 section-detail">
+                        <p class="ml-2">if you like trekking, camping, paragliding, and rafting.</p>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 pb-2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a href="Reservation.html" class="btn btn-danger btn-block btn-sm">Book Now</a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="section border bg-white rounded p-2">
+                <div class="row">
+                    <div class="col-lg-12 img-section">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0uSdYXjkKddU6CGoWwSFbQ7skMkfpAVadJA&usqp=CAU">
+                        <span class="badge badge-danger add-sens p-2 rounded-0">OPEN</span>
+                    </div>
+                    <div class="col-lg-12 sectin-title">
+                        <h1 class="pt-2">Mussoorie</h1>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <span class="badge badge-success p-2">$ 300  <del class="price-old">$1020</del></span>
+                            </div>
+                            <div class="col-lg-10 text-right">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half-alt"></i></span><br>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 section-detail">
+                        <p class="ml-2">Mussoorie is the most popular tourist destination in Uttarakhand.</p>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 pb-2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a href="Reservation.html" class="btn btn-danger btn-block btn-sm">Book Now</a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="section border bg-white rounded p-2">
+                <div class="row">
+                    <div class="col-lg-12 img-section">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgpYqfHrQzM1kXm7crq17uuMckaTIUtuUxOw&usqp=CAU">
+                        <span class="badge badge-danger add-sens p-2 rounded-0">CLOSED</span>
+                    </div>
+                    <div class="col-lg-12 sectin-title">
+                        <h1 class="pt-2">Kerala</h1>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <span class="badge badge-success p-2">$ 400  <del class="price-old">$1980</del></span>
+                          </div>
+                            <div class="col-lg-10 text-right">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star-half-alt"></i></span><br>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 section-detail">
+                        <p class="ml-2">Kerala has a comfortable climate and pleasant weather with less humidity.</p>
+                        <hr>
+                    </div>
+                    <div class="col-lg-12 pb-2">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <a  class="btn btn-danger btn-block btn-sm" >Book Now</a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+
+
+<!-- --book amstradam card  -->
+
+
+
+<div class="flex items-center justify-center min-h-screen">
+    <div class="max-w-md md:max-w-2xl px-2">
+        <div class="bg-white shadow-xl rounded-lg overflow-hidden md:flex">
+            <div class="bg-cover bg-bottom h-56 md:h-auto md:w-56" style="background-image: url(https://images.unsplash.com/photo-1517736996303-4eec4a66bb17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80)">
+            </div>
+            <div>
+                <div class="p-4 md:p-5">
+                    <p class="font-bold text-xl md:text-2xl">Pune Walking Tour</p>
+                    <p class="text-gray-700 md:text-lg">Explore popular tourist destinations as well as hidden local favourites.</p>
+                </div>
+                <div class="p-4 md:p-5 bg-gray-100">
+                    <div class="sm:flex sm:justify-between sm:items-center">
+                        <div>
+                            <div class="text-lg text-gray-700"><span class="text-gray-900 font-bold">$ 170</span> per person*</div>
+                            <div class="flex items-center">
+                                <div class="flex inline-flex -mx-px">
+                                    <svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                        <path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+                                    <svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                        <path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+                                    <svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                        <path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+                                    <svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                        <path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+                                    <svg class="w-4 h-4 mx-px fill-current text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
+                                        <path d="M6.43 12l-2.36 1.64a1 1 0 0 1-1.53-1.11l.83-2.75a1 1 0 0 0-.35-1.09L.73 6.96a1 1 0 0 1 .59-1.8l2.87-.06a1 1 0 0 0 .92-.67l.95-2.71a1 1 0 0 1 1.88 0l.95 2.71c.13.4.5.66.92.67l2.87.06a1 1 0 0 1 .59 1.8l-2.3 1.73a1 1 0 0 0-.34 1.09l.83 2.75a1 1 0 0 1-1.53 1.1L7.57 12a1 1 0 0 0-1.14 0z" /></svg>
+                                </div>
+                                <div class="text-gray-600 ml-2 text-sm md:text-base mt-1">28 reviews</div>
+                            </div>
+                        </div>
+                       <a href="Reservation.html"class="mt-3 sm:mt-0 py-2 px-5 md:py-3 md:px-6 bg-indigo-700 hover:bg-indigo-600 font-bold text-white md:text-lg rounded-lg shadow-md">Book now</a>
+                    </div>
+                    <div class="mt-3 text-gray-600 text-sm md:text-base">*Prices may vary depending on selected date.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --book amstradam card  end -->
+
+
+</body>
+</html>

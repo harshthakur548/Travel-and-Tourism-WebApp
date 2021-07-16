@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://smtpjs.com/v3/smtp.js"> </script>
+</head>
+<body><form method="post">
+		<input type="button" value="Send Email" onclick="sendEmail()"/> </form>
+		<script type="text/javascript">
+		function sendEmail() {
+			Email.send({
+				SecureToken: "934edef3-6e95-4f05-8761-65f0823ba121",
+				Host: "smtp.mailtrap.io",
+				Username : "harshthakur548@gmail.com",
+				Password : "212matpuchna",
+				To : "zomboy548@gmail.com",
+				From : " harshthakur548@gmail.com",
+				Subject : "Trip & Tourism Reservation",
+				Body : "This letter is to confirm your request for the booking. The reservation has been made at ABC hotel. Your credit card will be charged for a total of $300 which is inclusive of sales tax.If there are any cancelations, they should be reported latest by May 2021.the confirmation #167580 should be quoted.Sincerely, Travel & Tourism",
+			})
+			.then(function(message){
+				alert("mail sent successfully")
+			});
+		}
+	</script>
+</body>
+</html>
