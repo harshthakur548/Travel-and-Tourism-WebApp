@@ -77,4 +77,4 @@ project report by clicking on this --> [Travel & Tourism Project Report.pdf](htt
 ![Capture](https://user-images.githubusercontent.com/48183983/126862588-9ee9c6a4-c0ea-4c7a-9588-629dd2a388ea.PNG)
 
 
-                                                                  That's all hope you like it.
+                                                      That's all hope you like it.
