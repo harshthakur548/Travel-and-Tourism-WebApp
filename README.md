@@ -74,6 +74,18 @@ project report by clicking on this --> [Travel & Tourism Project Report.pdf](htt
 
 
 
+![smtp config](https://user-images.githubusercontent.com/48183983/126872501-97f18ea9-8699-4c8c-acdb-24bd5c279350.PNG)
+
+
+
+![admin login](https://user-images.githubusercontent.com/48183983/126872429-3913f3e1-7590-4d40-8711-e76bb80e1370.PNG)
+
+
+
+![admin datta ](https://user-images.githubusercontent.com/48183983/126872434-f2d6b10c-d815-461f-8731-465b976c8818.PNG)
+
+
+
 ![Capture](https://user-images.githubusercontent.com/48183983/126862588-9ee9c6a4-c0ea-4c7a-9588-629dd2a388ea.PNG)
 
 
