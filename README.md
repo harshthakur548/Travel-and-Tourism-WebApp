@@ -1,5 +1,6 @@
 # Travel-and-Tourism-WebApp
-Basic level web application that presents an aggregated view of World Wide Web (www), It is a dynamic & responsive website for tourism business with User/Admin login.
+
+Open project in eclipse download MySQL connector, Tomcat, Smtp jar then add them to the build path also and in deployment assembly then run the project after making the database according to the project or your need.
 
 [Learning Traning Report-1711981115.pdf](https://github.com/harshthakur548/Travel-and-Tourism-WebApp/files/6872121/Learning.Traning.Report-1711981115.pdf)
 
