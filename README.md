@@ -1,5 +1,5 @@
 # Travel-and-Tourism-WebApp
-Basic level web application that presents an aggregated view of World Wide Web (www), It is a dynamic & responsive website for tourism business.
+Basic level web application that presents an aggregated view of World Wide Web (www), It is a dynamic & responsive website for tourism business with User/Admin login.
 
 [Learning Traning Report-1711981115.pdf](https://github.com/harshthakur548/Travel-and-Tourism-WebApp/files/6872121/Learning.Traning.Report-1711981115.pdf)
 
